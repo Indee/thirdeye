@@ -20,6 +20,6 @@
   ],
 
   "browser_action": {
-    "default_icon": "thirdeye.jpg"
+    "default_icon": "thirdeye.png"
   }
 }
