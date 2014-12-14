@@ -38,6 +38,8 @@ document.addEventListener("mousemove", function(e){
 	var x = w - e.clientX;
 	var y = h - e.clientY;
 
+	console.log('mousemove');
+
 	var xPercent = Math.round((x/w)*100);
 	var yPercent = Math.round((y/h)*100);
 
