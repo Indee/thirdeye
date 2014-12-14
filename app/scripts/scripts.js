@@ -65,7 +65,10 @@ document.addEventListener("mousemove", function(e){
 
 	$("#pos-x").html(x);
 	$("#pos-y").html(y);
-	$("#view").html("Viewport X: " + w + "<br>" + "Viewport Y: " + h);
-	$("#percent").html("X Percent: " + xPercent + "<br>" + "Y Percent: " + yPercent);
-	$("#view").html("Center X: " + w / 2 + "<br>" + "Center Y: " + h / 2);
+	$("#view-x").html(w);
+	$("#view-y").html(h);
+	$("#percent-x").html(xPercent);
+	$("#percent-y").html(yPercent);
+	$("#center-x").html(h / 2);
+	$("#center-y").html(w / 2);
 })
