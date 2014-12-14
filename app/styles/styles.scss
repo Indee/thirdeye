@@ -1,3 +1,19 @@
 @function grayscale($value) {
   @return #{ "grayscale(" + $value + ")" };
 }
+
+
+body {
+	background:#eee;
+}
+
+.container {
+	background:white;
+	padding:10px;
+	width:400px;
+	margin:200px auto;
+	text-align: center;
+	span {
+		font-weight:900;
+	}
+}
