@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Third Eye",
+  "description": "An audio tool to allow visually impared individuals to locate issues. ",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": [
+          "*://*/*"
+      ],
+      "js": [
+          "jquery.min.js",
+          "mousesound.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "thirdeye.jpg"
+  }
+}
